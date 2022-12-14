@@ -1,0 +1,98 @@
+@media(max-width:768px){
+    body{
+        width: 100%;
+    }
+    .container{
+        padding: 10px;
+        text-decoration: none;
+        font-size: 17px;
+        flex-flow: wrap;
+    }
+    .imagem{
+        width: 10px;
+        height: 10px;
+    }
+} 
+/*Formatação do cabeçalho  */
+header{
+    background-color: rgb(52, 70, 45);
+    display: block;
+    width: 100%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.logo img{
+    width: 17vh;
+    margin-left: 10px;
+}
+/* Formatando o corpo */
+body{
+    width: 100%;
+    background-color: #363636;
+    font-family: Arial, Helvetica, sans-serif;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgb(71, 71, 71)), to(#000000));
+}
+/* Formatação dos textos */
+.texto{
+    width: 50%;
+    font-size: 17px;
+    padding: 20px;
+}
+
+h1{
+    margin-top: 2em;
+    color: rgb(102, 134, 84);
+    text-shadow: 2px 2px 2px black;
+}
+h2{
+    margin-top: 2em;
+    color: white;
+}
+p{
+    color: white;
+}
+/* Formatando os hiperlinks */
+.btn{
+    color: rgb(68, 88, 72);
+}
+.btn:visited{
+    color: rgb(68, 88, 72);
+}
+.btnplus{
+    text-decoration: none;
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    border-radius: 2em;
+    font-size: 20px;
+    margin-left: 18em; 
+}
+.btnplus:visited{
+    text-decoration: none;
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    border-radius: 2em;
+    font-size: 20px;
+    margin-left: 20em; 
+}
+/* Formatando a imagem do lado */
+.container img{
+    position: absolute;
+    width: 45%;
+    height: 60%;
+    left: 52%;
+    top: 20%;
+}
+.container img:hover{
+    transform: scale(1.05); 
+    box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+}
+/* Formatando rodapé */
+footer{
+    margin-top: 16em; 
+}
+footer p{
+    color: rgb(65, 78, 65);
+}
+
